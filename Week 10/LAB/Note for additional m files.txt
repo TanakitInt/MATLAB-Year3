@@ -1,0 +1,15 @@
+imnoise3.m :
+
+http://fourier.eng.hmc.edu/e161/dipum/imnoise3.m
+
+spfilt.m :
+
+http://fourier.eng.hmc.edu/e161/dipum/spfilt.m
+
+adpmedian.m :
+
+http://fourier.eng.hmc.edu/e161/dipum/adpmedian.m
+
+notchfilter.m :
+
+https://github.com/fieldtrip/fieldtrip/blob/master/private/notchfilter.m

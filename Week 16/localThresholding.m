@@ -1,17 +1,17 @@
-f = imread('Fig0926(a)(rice).tif');
-% f = imread('Fig1017(a)(cygnusloop_Xray_original).tif');
+%f = imread('Fig0926(a)(rice).tif');
+f = imread('Fig1017(a)(cygnusloop_Xray_original).tif');
 
 figure(1); imshow(f);
 
 
 se = strel('disk', 10);
-fo = imopen(f, se);
+fo = imopen(f, se);     % Image Opening
 
 figure(2); imshow(fo);
 
 
-To = graythresh(fo);
-T = fo +(To*255);
+To = graythresh(fo);    % Global Thresholding
+T = fo +(To*255);       % Local Thresholding
 
 figure(3); imshow(T);
 
